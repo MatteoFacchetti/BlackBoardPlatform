@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-### This program has been created by Matteo Facchetti. Find me on GitHub (https://github.com/MatteoFacchetti) and on LinkedIn (https://www.linkedin.com/in/matteo-facchetti/en) ###
+### This program has been created by Matteo Facchetti
+### Find me on GitHub (https://github.com/MatteoFacchetti) and on LinkedIn (https://www.linkedin.com/in/matteo-facchetti/en)
 
 print("This program has been created by Matteo Facchetti. Find me on GitHub (https://github.com/MatteoFacchetti) and on LinkedIn (https://www.linkedin.com/in/matteo-facchetti/en)")
 
