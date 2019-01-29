@@ -2,4 +2,17 @@
 
 All the Bocconi students know how annoying it is that you cannot directly access BBoard by just digiting http://blackboard.unibocconi.it/ inside the URL bar. If we have just opened our browser, that link will redirect us to the You@B log in page. Opening the BlackBoard platform is thus not straightforward and it requires at least two steps: you can access BBoard only after you have successfully logged into your Agenda You@B.
 
-This program lets you save time by doing it all for you. It will open your Agenda You@B, perform the Log In, and then instantly open BBoard.
+This program lets you save time by doing it all for you. It will open your Agenda You@B, perform the Log In, and then instantly open BBoard. The program has been written to work smoothly on Linux operating systems (and this step-by-step guide will let you run it on Linux), however it can run on all the operating systems; you might just want to modify the code a little bit if you want to use it on Windows or Mac OS (do not worry, the code is short and simply understandable!).
+
+Let's start!
+
+## Quick Setup
+
+First of all, make sure you have *Python installed* on your computer: the program is written in Python and will not run without it.
+
+Second: the program uses Google Chrome to connect to BlackBoard, so make sure you have it installed. Also, you will need a *web driver*, you can download it [here](http://chromedriver.chromium.org/). Once you have downloaded the zip file, extract the webdriver, rename it *webdriver* (it should be named like that by default) and put it inside your **/usr/local/** directory.
+To modify that folder you may need *root privileges*: open a terminal and digit
+
+```sudo nautilus```
+
+enter your password and your file manager will automatically open giving you root privileges. Now you can put the chromedriver inside the folder mentioned above.
