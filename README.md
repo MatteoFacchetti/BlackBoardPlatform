@@ -39,4 +39,9 @@ In order to run the program, you just need to open a terminal and run the follow
 
 A window will pop up asking for your Student ID and your Password. If you digit them correctly, Google Chrome will open and, after few seconds, you will be successfully logged in your BlackBoard platform!
 
+
+
+
+
+
 _Disclaimer: your Student ID and your Password ARE NOT shared with anyone when you run this program. You can check the code if you have any doubt._
