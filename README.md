@@ -8,11 +8,29 @@ Let's start!
 
 ## Quick Setup
 
-First of all, make sure you have *Python installed* on your computer: the program is written in Python and will not run without it.
+First of all, make sure you have *Python* installed on your computer: the program is written in Python and will not run without it.
 
 Second: the program uses Google Chrome to connect to BlackBoard, so make sure you have it installed. Also, you will need a *web driver*, you can download it [here](http://chromedriver.chromium.org/). Once you have downloaded the zip file, extract the webdriver, rename it *webdriver* (it should be named like that by default) and put it inside your **/usr/local/** directory.
-To modify that folder you may need *root privileges*: open a terminal and digit
+In order to do that, you may need *root privileges*: open a terminal and digit
 
 ```sudo nautilus```
 
-enter your password and your file manager will automatically open giving you root privileges. Now you can put the chromedriver inside the folder mentioned above.
+and enter your password; your file manager will automatically open giving you root privileges. Now you can put the chromedriver inside the folder mentioned above.
+
+After that, download the `bboard.py` file that you find in this repository. Once you have downloaded it, put it inside your **/bin/** directory. If you need to open the file manager with root privileges, just repeat what we have done with the webdriver.
+
+Last step: open another terminal and run
+
+```sudo chmod +x /bin/bboard.py```
+
+and enter your password. The setup is finally complete!
+
+## Run the program
+
+In order to run the program, you just need to open a terminal and run the following command
+
+```bboard.py```
+
+A window will pop up asking your Student ID and your Password. If you digit them correctly, Google Chrome will open and, after few seconds, you will be successfully logged in your BlackBoard platform!
+
+_Disclaimer: your Student ID and your Password ARE NOT shared with anyone when you run this program. You can check the code if you have any doubt._
