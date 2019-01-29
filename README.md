@@ -19,11 +19,17 @@ and enter your password; your file manager will automatically open giving you ro
 
 After that, download the `bboard.py` file that you find in this repository. Once you have downloaded it, put it inside your **/bin/** directory. If you need to open the file manager with root privileges, just repeat what we have done with the webdriver.
 
-Last step: open another terminal and run
+Now open another terminal and run
 
 ```sudo chmod +x /bin/bboard.py```
 
-and enter your password. The setup is finally complete!
+and enter your password.
+
+Last step: open your terminal and install selenium by running
+
+```pip install selenium```
+
+The setup is finally complete!
 
 ## Run the program
 
